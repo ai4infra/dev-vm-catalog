@@ -1,0 +1,11 @@
+apiVersion: kpt.dev/v1
+kind: Kptfile
+metadata:
+  name: LiamsBlueprint
+  annotations:
+    config.kubernetes.io/local-config: "true"
+info:
+  site: Athlone
+  description: Blah
+  keywords:
+  - Key1 Key2
